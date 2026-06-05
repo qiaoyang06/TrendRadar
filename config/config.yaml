@@ -150,6 +150,10 @@ rss:
       name: "Polygon Gaming"
       url: "https://www.polygon.com/rss/index.xml"
 
+    - id: "kitco-gold"
+      name: "Kitco 贵金属"
+      url: "https://www.kitco.com/news/rss"
+
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
       url: "http://www.ruanyifeng.com/blog/atom.xml"
