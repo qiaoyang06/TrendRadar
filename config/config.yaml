@@ -130,10 +130,6 @@ rss:
       name: "The Verge"
       url: "https://www.theverge.com/rss/index.xml"
 
-    - id: "reuters-business"
-      name: "Reuters World"
-      url: "https://www.reutersagency.com/feed/?best-topics=business-finance&post_type=best"
-
     - id: "bbc-news"
       name: "BBC News"
       url: "https://feeds.bbci.co.uk/news/rss.xml"
@@ -141,6 +137,10 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+
+    - id: "cnbc-markets"
+      name: "CNBC Markets"
+      url: "https://www.cnbc.com/id/100727362/device/rss/rss.html"
 
     - id: "ars-technica"
       name: "Ars Technica"
@@ -152,7 +152,8 @@ rss:
 
     - id: "kitco-gold"
       name: "Kitco 贵金属"
-      url: "https://www.kitco.com/news/rss"
+      url: "https://www.kitco.com/rss/kitco-news.xml"
+      enabled: false
 
     - id: "ruanyifeng"
       name: "阮一峰的网络日志"
