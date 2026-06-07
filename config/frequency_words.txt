@@ -77,23 +77,54 @@ NBA
 最牛
 最惨
 逆天
-# 过滤猎奇/事故/社会惨剧
+# 过滤暴力/犯罪/恐怖袭击
+枪击
+枪杀
+空袭
+袭击
+恐怖
+爆炸
+炸弹
+遇难
+遇害
+屠杀
+武装
+恐怖分子
+绑架
+斩首
+# 过滤政治竞选（不关注选举本身，但政策新闻保留）
+竞选
+大选
+投票
+候选人
+选票
+民调
+支持率
+民主党
+共和党
+# 过滤事故/灾难
+车祸
+坠机
+坠楼
+溺水
+火灾
+地震
+台风
+洪水
+泥石流
+# 过滤猎奇/社会惨剧
 炸死
 身亡
 惨死
 惊悚
 监控画面
 视频曝光
-车祸
-坠楼
-坠机
 砍伤
 杀害
 凶杀
 碎尸
 惨案
 死伤
-遇难
 溺亡
 烧死
 触电
@@ -254,59 +285,39 @@ NBA
 # ═══════════════════════════════════════════════════════════════
 
 [游戏]
-游戏
-主机
-Steam
-Epic
-Xbox
-PlayStation
-PS5
-PS6
-/PS[56]/ => PlayStation
-# 任天堂
-/任天堂|Nintendo|Switch|Switch2|NS2|塞尔达|马力欧|马里奥|宝可梦|银河战士|大乱斗|动物森友会|动森|皮克敏|星之卡比|火焰纹章|火纹|异度神剑|斯普拉遁/ => 任天堂
-# R星
-/R星|Rockstar|GTA|侠盗猎车|荒野大镖客|Red Dead|RDR|GTA6|Bully|恶霸鲁尼/ => R星
-# 小岛秀夫
+# ⚠️ 只放专有名词！不要放"游戏""电竞""主机""Steam""Epic"等宽泛词
+/任天堂|Nintendo|Switch|NS2|塞尔达|马力欧|马里奥|宝可梦|银河战士|动物森友会|皮克敏|星之卡比|火焰纹章|异度神剑|斯普拉遁/ => 任天堂
+/R星|Rockstar|GTA6?|侠盗猎车|荒野大镖客|Red Dead|RDR/ => R星
 /小岛秀夫|小岛工作室|Kojima|死亡搁浅|合金装备|MGS/ => 小岛秀夫
-# FromSoftware
 /FromSoftware|宫崎英高|艾尔登法环|黑暗之魂|只狼|血源|装甲核心|黑夜君临/ => FromSoftware
-# 育碧
-/育碧|Ubisoft|刺客信条|孤岛惊魂|看门狗|彩虹六号|全境封锁|细胞分裂|波斯王子|超越善恶/ => 育碧
-# 卡普空
+/育碧|Ubisoft|刺客信条|孤岛惊魂|看门狗|彩虹六号|全境封锁|细胞分裂|波斯王子/ => 育碧
 /卡普空|Capcom|生化危机|怪物猎人|怪猎|鬼泣|街头霸王|逆转裁判|龙之信条/ => 卡普空
-# 暴雪
-/暴雪|Blizzard|魔兽|守望先锋|暗黑破坏神|星际争霸|炉石|Diablo|Warcraft|StarCraft/ => 暴雪
-# 米哈游
-/米哈游|原神|崩坏|星穹铁道|绝区零|ZZZ|Honkai/ => 米哈游
-# 腾讯游戏
-/腾讯游戏|天美|光子|Riot|拳头|英雄联盟|LOL|无畏契约|Valorant|三角洲行动|王者荣耀|和平精英/ => 腾讯游戏
-# 网易游戏
+/暴雪|Blizzard|魔兽世界|守望先锋|暗黑破坏神|星际争霸|炉石传说|Diablo|Warcraft|StarCraft/ => 暴雪
+/米哈游|原神|崩坏|星穹铁道|绝区零|ZZZ/ => 米哈游
+/腾讯游戏|天美|光子|Riot Games|拳头|英雄联盟|无畏契约|三角洲行动|王者荣耀|和平精英/ => 腾讯游戏
 /网易游戏|永劫无间|逆水寒|燕云十六声|七日世界|漫威争锋/ => 网易游戏
-# CD Projekt
-/CD Projekt|CDPR|巫师|Witcher|赛博朋克|Cyberpunk/ => CD Projekt
-# Larian
+/CD Projekt|CDPR|巫师|猎魔人|Witcher|赛博朋克|Cyberpunk/ => CD Projekt
 /拉瑞安|Larian|博德之门|神界原罪|Baldur/ => 拉瑞安
-# 其他大厂
-/EA|Electronic Arts|战地|FIFA|质量效应|龙腾世纪|Apex/ => EA
+/EA游戏|战地|FIFA|质量效应|龙腾世纪|Apex英雄/ => EA
 /贝塞斯达|Bethesda|上古卷轴|辐射|星空|Starfield|毁灭战士|DOOM/ => Bethesda
-/Square Enix|SE|最终幻想|勇者斗恶龙|王国之心|尼尔/ => Square Enix
-/万代南梦宫|Bandai Namco|艾尔登法环|铁拳|皇牌空战|传说系列/ => 万代南梦宫
+/Square Enix|最终幻想|勇者斗恶龙|王国之心|尼尔|DQ|FF/ => Square Enix
+/万代南梦宫|Bandai Namco|铁拳|皇牌空战|传说系列/ => 万代南梦宫
 /世嘉|SEGA|如龙|索尼克|女神异闻录|Atlus/ => 世嘉
-/Take-Two|2K|文明|无主之地|生化奇兵|NBA2K/ => Take-Two
-# 索尼第一方
-/索尼|SIE|战神|最后生还者|蜘蛛侠|对马岛|GT赛车|地平线|顽皮狗|圣莫尼卡|Bungie|失眠组/ => PlayStation工作室
-# 微软第一方
-/Xbox|微软游戏|XGP|Game Pass|光环|战争机器|地狱之刃|黑曜石|Obsidian|Ninja Theory|Playground/ => Xbox工作室
-# 独立游戏与国产
-/3A|独立游戏|黑神话|影之刃零|失落之魂|百面千相|王者荣耀世界|昭和米国物语|明末|锦衣卫/ => 国产游戏
-# 游戏行业
-/游戏行业|游戏产业|游戏出海|版号|防沉迷|游戏工委|游戏监管|TGA|游戏大奖|夏日游戏节|科隆展|东京电玩展/ => 游戏行业
-# 游戏硬件
-/显卡|RTX|GeForce|Radeon|游戏本|ROG| Alienware|Steam Deck|ROG Ally|掌机/ => 游戏硬件
+/Take-Two|文明|无主之地|生化奇兵/ => Take-Two
+# PlayStation（注意：用PlayStation全名，不是"索尼"）
+/PlayStation|PS5|PS6|战神|最后生还者|蜘蛛侠|对马岛|GT赛车|地平线|顽皮狗|圣莫尼卡|失眠组/ => PlayStation
+# Xbox（注意：用Xbox和Game Pass，不是"微软"）
+/Xbox|XGP|Game Pass|光环|战争机器|地狱之刃|黑曜石|Obsidian|Ninja Theory|Playground/ => Xbox
+# 国产游戏
+/黑神话悟空|影之刃零|失落之魂|百面千相|王者荣耀世界|昭和米国物语|明末|锦衣卫/ => 国产游戏
+# 游戏行业专有名词
+/版号|防沉迷|TGA|游戏大奖|夏日游戏节|科隆游戏展|东京电玩展|E3|GDC/ => 游戏展会
+# 硬件（仅限游戏专属）
+/Steam Deck|ROG Ally|RTX5090|RTX5080|PS5 Pro|Switch2|游戏掌机/ => 游戏硬件
 
 [电竞]
-/电竞|LOL|英雄联盟|DOTA|CS2|Valorant|无畏契约|S赛|TI|Major|EWC|沙特电竞|MSI|季中赛/ => 电竞
+# ⚠️ 必须是电竞比赛相关，不相关的不要
+/LOL全球总决赛|英雄联盟S赛|TI国际邀请赛|DOTA2国际邀请赛|CS2 Major|Valorant全球冠军赛|无畏契约冠军赛|EWC电竞世界杯|沙特电竞|MSI季中赛|IEM卡托维兹|Blast/ => 电竞比赛
 
 # ═══════════════════════════════════════════════════════════════
 #                         企业与品牌
